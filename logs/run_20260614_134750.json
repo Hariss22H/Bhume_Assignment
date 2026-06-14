@@ -1,0 +1,20 @@
+{
+  "village": "malatavadi",
+  "timestamp": "20260614_134750",
+  "global_shift": {
+    "dx_m": 9.57,
+    "dy_m": 0.05
+  },
+  "classification": {
+    "total": 2508,
+    "candidates": 1920,
+    "flagged_p1": 588
+  },
+  "results": {
+    "corrected_shifted": 1619,
+    "already_correct": 0,
+    "flagged_weak": 301
+  },
+  "elapsed_s": 1417.6,
+  "scorecard": "=== malatavadi \u00b7 scored on 3 example truths ===\ncoverage:    3 corrected + 0 flagged\naccuracy:    median IoU pred=0.588 vs official=0.510  (improvement=0.089, improved 0.667)\n             median centroid err=7.928 m \u00b7 accurate(IoU>=.5)=0.667\ncalibration: Spearman(conf,IoU)=-0.500 \u00b7 AUC=0.500   (higher = confidence tracks accuracy)\nrestraint:   N/A \u2014 graded on the hidden set (no control plots here)"
+}

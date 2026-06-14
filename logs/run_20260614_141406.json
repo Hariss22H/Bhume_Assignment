@@ -1,0 +1,20 @@
+{
+  "village": "34855_vadnerbhairav_chandavad_nashik",
+  "timestamp": "20260614_141406",
+  "global_shift": {
+    "dx_m": -4.4,
+    "dy_m": 11.35
+  },
+  "classification": {
+    "total": 2457,
+    "candidates": 1758,
+    "flagged_p1": 699
+  },
+  "results": {
+    "corrected_shifted": 1471,
+    "already_correct": 0,
+    "flagged_weak": 287
+  },
+  "elapsed_s": 1109.5,
+  "scorecard": "=== 34855_vadnerbhairav_chandavad_nashik \u00b7 scored on 6 example truths ===\ncoverage:    6 corrected + 0 flagged\naccuracy:    median IoU pred=0.714 vs official=0.612  (improvement=0.111, improved 1.000)\n             median centroid err=8.860 m \u00b7 accurate(IoU>=.5)=1.000\ncalibration: Spearman(conf,IoU)=-0.257 \u00b7 AUC=\u2014   (higher = confidence tracks accuracy)\nrestraint:   N/A \u2014 graded on the hidden set (no control plots here)"
+}
