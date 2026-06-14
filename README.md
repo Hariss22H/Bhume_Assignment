@@ -53,7 +53,17 @@ solution/
 ├── phase4_confidence.py   — confidence calculation + decision rules
 └── pipeline.py             — orchestrates all phases end-to-end
 ```
+## Prediction Files
 
+Generated prediction files are stored alongside the corresponding dataset folders under the `data/` directory.
+
+Example locations:
+
+- `data/34855_vadnerbhairav_chandavad_nashik/predictions.geojson`
+- `data/malatavadi/predictions.geojson`
+
+Each `predictions.geojson` contains the corrected plot boundaries produced by the solution for that specific village and can be used directly for verification or evaluation.
+The prediction files are intentionally placed inside their respective dataset directories so they can be easily compared with the corresponding `input.geojson` and evaluated independently.
 ## Key Decisions
 
 - **Translation only** — no rotation/reshape, since BhuMe's drift is primarily
